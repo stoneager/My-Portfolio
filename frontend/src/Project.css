@@ -1,0 +1,75 @@
+/* General Container */
+.projects-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Title */
+.projects-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: rgb(0, 255, 179);
+}
+
+/* Grid Layout */
+.projects-grid {
+    display :block;
+    gap: 30px;
+    max-width: max-content;
+}
+
+/* Individual Card */
+.project-card {
+    align-content: flex-end;
+    border: 2px solid #dddddd;
+    padding: 20px;
+    gap : 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(91, 235, 199, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover Effect */
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.project-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #131212e0;
+}
+
+/* Description */
+.project-desc {
+    margin-bottom: 12px;
+    color: #555;
+}
+
+/* Tech Stack */
+.project-tech {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Links */
+.project-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+/* Link Hover */
+.project-links a:hover {
+    color: #0056b3;
+}
+ 
