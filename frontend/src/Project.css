@@ -1,6 +1,7 @@
 /* General Container */
 .projects-container {
     max-width: 1200px;
+    place-items : center;
     margin: 40px auto;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -16,14 +17,18 @@
 
 /* Grid Layout */
 .projects-grid {
-    display :block;
+    display :grid;
     gap: 30px;
     max-width: max-content;
+    justify-content : center;
 }
 
 /* Individual Card */
 .project-card {
+    display : flex;
+    flex-direction : column;
     align-content: flex-end;
+    max-width: 100%;
     border: 2px solid #dddddd;
     padding: 20px;
     gap : 20px;

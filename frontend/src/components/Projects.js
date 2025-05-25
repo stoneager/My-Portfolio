@@ -31,7 +31,10 @@ const Projects = () => {
                         <p className="project-tech"><strong>Tech Stack:</strong> {project.techStack.join(', ')}</p>
                         <div className="project-links">
                             <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
-                            
+                             {project.demoLink && (
+                                <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+                                    Website Link
+                                </a>)}
                         </div>
                     </div>
                 ))}

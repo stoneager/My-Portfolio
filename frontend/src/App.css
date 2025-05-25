@@ -21,7 +21,6 @@ a {
 /* Navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
   background-color: #000000;
@@ -97,4 +96,14 @@ a {
 /* Link Hover */
 .footer a:hover {
   color: #0056b3;
+}
+
+.profilepicture{
+  width : 160px;
+  height : 160px;
+  border-radius : 50%;
+  border: 3px solid #4CAF50; 
+  object-fit :cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 1rem;
 }
